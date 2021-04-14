@@ -1,13 +1,35 @@
-1. What is the difference between an inline element and a block element?
+PULL REQUEST: https://github.com/CoBe18/Git-for-Web-Development-Project/pull/1
 
+
+
+QUESTIONS
+
+1. What is the difference between an inline element and a block element?
+        An in-line element will not automaticall insert a new line, whereas the block element can.
 
 2. What happens when an element is positioned absolutely? 
-
+        Absolute is a "fixed" position - it no longer takes up space. It no longer has "set" coordinates.
 
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+                    Use a <div></div>
+
+4. (a)Name 3 elements that are display block by default, (b)2 elements that are display inline by default, (c)and 1 element that is display inline-block by default.
+        a. <div>
+           <h1> - <h6>
+           <p>
+
+        b. <span>
+           <nav> 
+          
+
+        c. <button>
+           <input> 
+           <select> 
+           <textarea>
 
 
-4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
+5. In your own words, (a)explain the box model. (b)What is the fix for the box model? 
 
+a. The box-model wraps around every HTML element using margin, padding, borders and actual content.
 
-5. In your own words, explain the box model. What is the fix for the box model? 
+b.   box-sizing: border-box
