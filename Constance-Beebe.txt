@@ -33,3 +33,7 @@ QUESTIONS
 a. The box-model wraps around every HTML element using margin, padding, borders and actual content.
 
 b.   box-sizing: border-box
+
+
+
+PULL REQUEST:   https://github.com/CoBe18/Git-for-Web-Development-Project/pull/1
