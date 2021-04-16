@@ -1,0 +1,252 @@
+
+<!--  CODE PEN ASSIGNMENT - CSS + HTML Practice - https://codepen.io/CoBe718/pen/gOgKzyp?editors=1100-->
+
+
+<!---- PULL REQUEST: https://github.com/CoBe18/Git-for-Web-Development-Project/pull/1
+
+
+*********QUESTIONS**********
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+         The idea of using HTML elements to indicate what they actually are, rather than how they may appear in the browser by default.
+
+    2. What is HTML used for? 
+
+         Is the code that is used to structure a web page and its content.
+
+    3. What is an attribute and where do we put it? 
+
+         Attributes define additional characteristics or properties of the element such as width and height of an image. Attributes are always specified in the start tag (or opening tag).
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+         You can use H1 tags as often as you want on a page. There's no limit .
+
+    5. Name two tags that have required attributes
+
+         The img element has two required attributes: src & alt.
+
+    6. What do we put in the head of our HTML document? 
+
+         It contains information such as the page <title> , links to CSS (if I choose to style my HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document.)
+
+    7. What is an id? 
+
+         The id attribute specifies a unique id for an HTML element.
+
+    8. What elements can I add an id to? 
+
+         In HTML, every element on your web page can be assigned a unique id attribute.
+
+    9. How many times can I use the same id on a page? 
+
+         only once.
+
+    10. What is a class? 
+
+          A class describes the contents of the objects that belong to it.
+
+    11. What elements can I add a class to? 
+
+          A class can be added on one or more than one element on each page
+
+    12. How many times can I use the same class on a page? 
+
+          As many times as needed.
+
+    13. How do I get my link to open in a new tab?
+
+          Add a target="_blank" attribute to your links (anchor tags.
+
+    14. What is the alt attribute in the image tag used for? 
+
+          A description of the image.
+
+    15. How do I reference an id?
+
+         # followed by an id name.
+
+    16. What is the difference between a section and a div
+
+         <section> means that the content inside is grouped and should appear as a entry in an outline of a page whereas <div> does not convey any meaning, aside from any found in its class, lang and title attributes.
+
+    17. What is CSS used for? 
+
+         For styling my website.
+
+    18. How to we select an element? Example - every h2 on the page
+         We use CSS Rules.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+         An id is unique to only one element. A class is not unique and applied to multiple elements.
+
+         <ul id="nav">
+
+         <div class="widget"></div>
+         <div class="widget"></div>
+         <div class="widget"></div>
+
+    20. How do we select classes in CSS?
+
+         By using a . in front of the class name.
+
+    21. How do we select a p element with a single class of “human”?
+         p.human  or div> .human
+
+    22. What is a parent child selector? When would this be useful? 
+         The "parent > child" selector, selects all elements that are a direct child of the specified element.
+
+         It becomes possible to very precisely target certain elements at certain points in the document.
+
+    23. How do you select all links within a div with the class of sidebar?
+         div> a
+
+    24. What is a pseudo selector?
+
+         A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+
+    25. What do we use the change the spacing between lines?
+
+         line-height: 1.5em;
+
+    26. What do we use to change the spacing between letters?
+
+         letter-spacing: 2px;
+               or
+         letter-spacing: 0.1em;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+         text-transform: capitalize;
+         text-transform: lowercase;
+         text-transform: uppercase;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+         border: 1px dotted #000000;
+
+    29. How do I select everything on the page? 
+
+                     *
+
+    30. How do I write a comment in CSS?
+         
+         /* comment */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+         git status
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+         ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+         >  git rm file4 (file4 is the name of the file to be deleted)
+         >  rm 'file4'
+         >  git commit -m "deleted file from Git repository and filesystem"
+         >  git push
+
+    34. Why should I use version control? 
+
+         To keep track of changes — and keep every team member working off the latest version.
+
+    35. How often should I commit to github?
+         
+         Whenever I add a new feature. 
+
+    36. What is the command we would use to push our repo up to github? 
+         git push -u origin Constance-Beebe
+
+    37. Walk me through Lambda's git flow. 
+
+         *  Fork the repo
+         *  Clone my Repo using GitHubs 'Clone' button
+         *  cd into the directory I want the Clone to go into.
+         *  git clone (paste in the git-clone URL)
+         *  cd into the cloned file
+         *  git checkout -b 'Constance-Beebe'
+         *  git add .
+         *  git  commit -m "message here"
+         *  git push -u origin Constance-Beebe
+
+
+
+
+******STRETCH QUESTIONS******
+
+1. What is the difference between an inline element and a block element?
+        An in-line element will not automaticall insert a new line, whereas the block element can.
+
+2. What happens when an element is positioned absolutely? 
+        Absolute is a "fixed" position - it no longer takes up space. It no longer has "set" coordinates.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+                    Use a <div></div>
+
+4. (a)Name 3 elements that are display block by default, (b)2 elements that are display inline by default, (c)and 1 element that is display inline-block by default.
+        a. <div>
+           <h1> - <h6>
+           <p>
+
+        b. <span>
+           <nav> 
+          
+
+        c. <button>
+           <input> 
+           <select> 
+           <textarea>
+
+
+5. In your own words, (a)explain the box model. (b)What is the fix for the box model? 
+
+a. The box-model wraps around every HTML element using margin, padding, borders and actual content.
+
+b.   box-sizing: border-box
+
+---->
+
+<!DOCTYPE  html>
+<html lang="en">
+<link rel="stylesheet" media="all" href=".css/styles">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/index.css">
+   <title>Advanced CSS selectors exercise - with questions and answers</title>
+
+<body>
+   <div class="container">
+      <header>  
+         <h1>Learning How to Code</h1>
+            <div class="inform">
+               <h1>Learning How to Code</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!</p>
+             </div>
+      </header>
+  
+         <section class="section-1">
+            <h2>I'm a title</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!</p>
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.</p>
+         </section>
+  
+          <section class="section-2">
+             <h2>This is another section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!</p>
+          </section>
+
+         <section class="img-gallery">
+            <img src="https://unsplash.it/200/200">
+            <img src="https://unsplash.it/200/200">
+            <img src="https://unsplash.it/200/200"> 
+            <img src="https://unsplash.it/200/200">
+         </section>
+    
+    </body>
+   </html>
+     
